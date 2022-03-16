@@ -38,7 +38,9 @@ public class Dialogue : MonoBehaviour
 
         //object show
         foreach(GameObject obj in Appear)
-        if (obj != null) { obj.SetActive(true); }
+            if (obj != null)
+        { obj.SetActive(true); }
+        
 
         //audio
         if (audio1 == null) { return; }
