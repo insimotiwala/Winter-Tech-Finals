@@ -6,12 +6,13 @@ using UnityEngine.UI;
 public class Dialogue : MonoBehaviour
 {
     public GameObject Balloon;
-    //public string Text;
+    public string Text;
 
     public AudioSource audio1;
     public AudioClip[] clips;
  
    public GameObject []Appear;
+
 
     private GameObject _curBalloon;
 
@@ -21,7 +22,7 @@ public class Dialogue : MonoBehaviour
         Canvas canvas = FindObjectOfType<Canvas>();
         if (canvas == null) { return; }
 
-       /* _curBalloon = Instantiate(Balloon); //create text balloon
+       _curBalloon = Instantiate(Balloon); //create text balloon
        _curBalloon.GetComponent<RectTransform>().position = new Vector2(Screen.width / 2.0f, 15); //position text balloon
         _curBalloon.GetComponent<Text>().text = Text; //update text in balloon
         _curBalloon.transform.parent = canvas.transform; //add balloon under Canvas
@@ -33,7 +34,7 @@ public class Dialogue : MonoBehaviour
         Vector2 rectSize = _curBalloon.GetComponent<RectTransform>().sizeDelta;
         rectSize.y = (int)(fontSize / 0.825);
         _curBalloon.GetComponent<RectTransform>().sizeDelta = rectSize;
-       */
+       
 
         //object show
         foreach(GameObject obj in Appear)
