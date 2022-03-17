@@ -8,4 +8,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/_Scenes/Center and Edge.unity
     guid: 2210db102d1ea4316bc03772fa3f042c
+  - enabled: 1
+    path: Assets/_Scenes/End- Restart Scene.unity
+    guid: 7c065201e268745ea970e6941087a1e4
   m_configObjects: {}

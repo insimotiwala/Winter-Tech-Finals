@@ -13,10 +13,13 @@ public class Reset : MonoBehaviour
     // Update is called once per frame
     private void Update()
     {
-        if (Input.GetKeyDown(KeyCode.R))
+        //if (Input.GetKeyDown(KeyCode.R))
+        if (Input.GetButtonDown("South"))
         {
-            Scene scene = SceneManager.GetActiveScene();
-            SceneManager.LoadScene(scene.name, LoadSceneMode.Single);
+            // Scene scene = SceneManager.GetActiveScene();
+            // SceneManager.LoadScene(scene.name, LoadSceneMode.Single);
+            SceneManager.LoadScene(0);
+            Debug.Log("lol");
         }
     }
 }
