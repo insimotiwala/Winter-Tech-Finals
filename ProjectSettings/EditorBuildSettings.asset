@@ -6,8 +6,8 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/_Scenes/Center and Edge.unity
-    guid: 2210db102d1ea4316bc03772fa3f042c
+    path: Assets/_Scenes/Finals-02.unity
+    guid: 71c9ed88ce8ca4594aa81372929761d5
   - enabled: 1
     path: Assets/_Scenes/End- Restart Scene.unity
     guid: 7c065201e268745ea970e6941087a1e4
