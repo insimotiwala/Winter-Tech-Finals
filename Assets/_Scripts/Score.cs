@@ -15,10 +15,12 @@ public class Score : MonoBehaviour
     {
         if (col.tag != "Player") { return; }
 
+     
 
-        points = points + 25;
+            points = points + 25;
 
-        scorekeeper.text = points.ToString();
+            scorekeeper.text = points.ToString();
+     
 
 
     }

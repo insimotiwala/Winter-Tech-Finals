@@ -16,7 +16,7 @@ public class churchreset : MonoBehaviour
 
     {
         GetComponent<Reset>();
-        
+        GetComponent<Score>();
     }
 
 }
