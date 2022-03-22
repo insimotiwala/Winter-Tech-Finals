@@ -18,6 +18,7 @@ public class Scenereset : MonoBehaviour
         {
             Scene scene = SceneManager.GetActiveScene();
             SceneManager.LoadScene(scene.name, LoadSceneMode.Single);
+            GetComponent<Score>();
             
         }
     }
